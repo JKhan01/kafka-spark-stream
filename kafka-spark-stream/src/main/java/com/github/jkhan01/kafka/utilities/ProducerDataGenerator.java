@@ -55,5 +55,10 @@ public class ProducerDataGenerator {
 
 		return UUID.randomUUID().toString();
 	}
+	
+	public static void main(String[] args) {
+		ProducerDataGenerator data = new ProducerDataGenerator();
+		System.out.println(data.generateSensorDataJSON());
+	}
 
 }
