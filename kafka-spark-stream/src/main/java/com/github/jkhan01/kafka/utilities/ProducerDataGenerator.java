@@ -9,6 +9,13 @@ import org.json.simple.JSONObject;
 
 import com.github.jkhan01.kafka.constants.ApplicationConstants;
 
+/**
+ * 
+ * Generate the Random Sensor data for the producer to serve the kafka cluster
+ * @author Mohd Jamaluddin Khan
+ *
+ */
+
 public class ProducerDataGenerator {
 
 	private Random random = new Random();
@@ -55,6 +62,8 @@ public class ProducerDataGenerator {
 
 		return UUID.randomUUID().toString();
 	}
+	
+	
 	
 	public static void main(String[] args) {
 		ProducerDataGenerator data = new ProducerDataGenerator();
