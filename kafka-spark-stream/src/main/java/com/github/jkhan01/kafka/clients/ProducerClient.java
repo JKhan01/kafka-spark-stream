@@ -15,6 +15,14 @@ import com.github.jkhan01.kafka.constants.ApplicationConstants;
 import com.github.jkhan01.kafka.constants.KafkaServerConstants;
 import com.github.jkhan01.kafka.utilities.ProducerDataGenerator;
 
+/**
+ * 
+ * The Producer Client to the Kafka Server. The Producer will publish the
+ * Necessary Sensor Data as JSON String
+ * 
+ * @author Mohd Jamaluddin Khan
+ *
+ */
 public class ProducerClient {
 
 	private KafkaProducer<String, String> producer;
@@ -32,16 +40,16 @@ public class ProducerClient {
 				KafkaServerConstants.getVALUE_SERIALIZER_STRING());
 
 		this.producer = new KafkaProducer<String, String>(properties);
-		
+
 	}
 
-	private String getSensorData() {
+	public String getSensorData() {
 		ProducerDataGenerator dataGenerator = new ProducerDataGenerator();
 		return dataGenerator.generateSensorDataJSON().toString();
 	}
 
-	private void publishSensorData() {
-		
+	public void publishSensorData() {
+
 		ProducerRecord<String, String> record = new ProducerRecord<String, String>(KafkaServerConstants.getTOPIC_NAME(),
 				this.getSensorData());
 		this.producer.send(record, new Callback() {
@@ -52,27 +60,26 @@ public class ProducerClient {
 				if (exception != null) {
 					logger.error("Error Occured in Publishing Data to the Kafka Cluster.\n Error Message: "
 							+ exception.getMessage());
-				}else {
-					logger.info("Sensor Data Published Successfully!"+
-							"\n Topic: " + metadata.topic() +
-							"\n Partition Number: " + metadata.partition() + 
-							"\n Offset: " + metadata.offset()
-							);
+				} else {
+					logger.info("Sensor Data Published Successfully!" + "\n Topic: " + metadata.topic()
+							+ "\n Partition Number: " + metadata.partition() + "\n Offset: " + metadata.offset());
 				}
 			}
 		});
 		this.producer.flush();
 	}
 
-	private void closeProducerClient() {
+	public void closeProducerClient() {
 		this.producer.close();
 	}
 
+	
+//	################### Testing The Producer Client ###################
 	public static void main(String[] args) {
 		ProducerClient producerClient = new ProducerClient();
 		TimeUnit timer = TimeUnit.MILLISECONDS;
 		int i = 0;
-		while (i<10) {
+		while (i < 10) {
 
 			try {
 				producerClient.publishSensorData();
@@ -85,7 +92,6 @@ public class ProducerClient {
 			}
 		}
 
-		
 		logger.info("Producer Client Shutting Down!");
 		producerClient.closeProducerClient();
 	}
