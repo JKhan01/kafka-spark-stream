@@ -9,8 +9,14 @@ public class ApplicationConstants {
 	private static double MAXIMUM_FLOOR_TEMPERATURE = 40;
 	
 	private static int PUBLISHING_INTERVAL_IN_MILLIS = 1000;
+	
+	private static String DATA_CSV_FILE_PATH = "F:\\BigDataTraining\\Assignment_Kafka_Spark\\kafka-spark-stream\\data-csv\\sensor-data.csv";
 
 	
+	public static String getDATA_CSV_FILE_PATH() {
+		return DATA_CSV_FILE_PATH;
+	}
+
 	public static int getPUBLISHING_INTERVAL_IN_MILLIS() {
 		return PUBLISHING_INTERVAL_IN_MILLIS;
 	}

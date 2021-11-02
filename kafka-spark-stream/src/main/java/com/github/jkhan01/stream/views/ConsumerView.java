@@ -9,6 +9,7 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import com.github.jkhan01.kafka.clients.ConsumerClient;
+import com.github.jkhan01.kafka.constants.ApplicationConstants;
 
 public class ConsumerView {
 	
@@ -17,7 +18,7 @@ public class ConsumerView {
 		JSONObject json = (JSONObject) parser.parse(record.value());
 		
 		
-		FileWriter csvWriter = new FileWriter("F:\\BigDataTraining\\Assignment_Kafka_Spark\\kafka-spark-stream\\data-csv\\sensor-data.csv", true);
+		FileWriter csvWriter = new FileWriter(ApplicationConstants.getDATA_CSV_FILE_PATH(), true);
 		
 		csvWriter.append(json.get("timestamp").toString()+",");
 		csvWriter.append(json.get("uniqueId").toString()+",");
