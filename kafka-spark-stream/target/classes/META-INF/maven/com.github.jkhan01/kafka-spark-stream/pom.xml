@@ -5,6 +5,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>kafka-spark-streaming</name>
   <description>Apache Kafka and PySpark based Big Data stream producer, consumer project.</description>
+  <properties>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+  </properties>
   <dependencies>
 		<!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-clients -->
 		<dependency>

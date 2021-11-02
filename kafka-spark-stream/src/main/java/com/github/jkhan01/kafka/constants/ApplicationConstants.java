@@ -7,6 +7,13 @@ public class ApplicationConstants {
 
 	private static double MINIMUM_FLOOR_TEMPERATURE = 20;
 	private static double MAXIMUM_FLOOR_TEMPERATURE = 40;
+	
+	private static int PUBLISHING_INTERVAL_IN_MILLIS = 1000;
+
+	
+	public static int getPUBLISHING_INTERVAL_IN_MILLIS() {
+		return PUBLISHING_INTERVAL_IN_MILLIS;
+	}
 
 	public static int getNUMBER_OF_SENSORS_PER_FLOOR() {
 		return NUMBER_OF_SENSORS_PER_FLOOR;
