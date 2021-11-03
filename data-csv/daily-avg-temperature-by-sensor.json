@@ -1,0 +1,602 @@
+[
+    {
+        "date": "2021-11-02",
+        "floor_number": 6,
+        "sensor_id": 1,
+        "mean_temperature": 27.815895999530447
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 7,
+        "sensor_id": 5,
+        "mean_temperature": 28.316784283944877
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 5,
+        "sensor_id": 5,
+        "mean_temperature": 28.588964134161017
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 2,
+        "sensor_id": 3,
+        "mean_temperature": 28.795662389773607
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 5,
+        "sensor_id": 3,
+        "mean_temperature": 28.797164985218092
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 2,
+        "sensor_id": 5,
+        "mean_temperature": 28.860880057546456
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 2,
+        "sensor_id": 2,
+        "mean_temperature": 29.11251656244852
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 9,
+        "sensor_id": 2,
+        "mean_temperature": 29.21380638258996
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 3,
+        "sensor_id": 3,
+        "mean_temperature": 29.218971148670608
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 7,
+        "sensor_id": 2,
+        "mean_temperature": 29.32596316220087
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 6,
+        "sensor_id": 3,
+        "mean_temperature": 29.39515081431789
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 10,
+        "sensor_id": 5,
+        "mean_temperature": 29.420293794375638
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 8,
+        "sensor_id": 4,
+        "mean_temperature": 29.44941927492971
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 1,
+        "sensor_id": 1,
+        "mean_temperature": 29.491758415084345
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 5,
+        "sensor_id": 1,
+        "mean_temperature": 29.511926119206507
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 8,
+        "sensor_id": 2,
+        "mean_temperature": 29.546257676488533
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 6,
+        "sensor_id": 5,
+        "mean_temperature": 29.547149538041772
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 2,
+        "sensor_id": 1,
+        "mean_temperature": 29.582205267254775
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 4,
+        "sensor_id": 2,
+        "mean_temperature": 29.640837644532255
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 10,
+        "sensor_id": 2,
+        "mean_temperature": 29.643820928854858
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 8,
+        "sensor_id": 3,
+        "mean_temperature": 29.651638136994407
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 1,
+        "sensor_id": 3,
+        "mean_temperature": 29.666159210848395
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 4,
+        "sensor_id": 4,
+        "mean_temperature": 29.719711949480267
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 9,
+        "sensor_id": 5,
+        "mean_temperature": 29.749474502515586
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 2,
+        "sensor_id": 4,
+        "mean_temperature": 29.75567606320449
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 8,
+        "sensor_id": 1,
+        "mean_temperature": 29.780518281638813
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 9,
+        "sensor_id": 3,
+        "mean_temperature": 29.867789290480374
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 9,
+        "sensor_id": 4,
+        "mean_temperature": 29.890129242341043
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 3,
+        "sensor_id": 2,
+        "mean_temperature": 29.91359027068589
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 3,
+        "sensor_id": 1,
+        "mean_temperature": 29.99362065181896
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 7,
+        "sensor_id": 1,
+        "mean_temperature": 30.027822682681684
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 3,
+        "sensor_id": 5,
+        "mean_temperature": 30.156656895777445
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 1,
+        "sensor_id": 5,
+        "mean_temperature": 30.177177434077777
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 4,
+        "sensor_id": 5,
+        "mean_temperature": 30.178743271374522
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 10,
+        "sensor_id": 1,
+        "mean_temperature": 30.191555257221218
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 1,
+        "sensor_id": 4,
+        "mean_temperature": 30.233206192395542
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 5,
+        "sensor_id": 2,
+        "mean_temperature": 30.288517816542196
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 3,
+        "sensor_id": 4,
+        "mean_temperature": 30.33309859366307
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 5,
+        "sensor_id": 4,
+        "mean_temperature": 30.403636420289875
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 9,
+        "sensor_id": 1,
+        "mean_temperature": 30.414528293793982
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 7,
+        "sensor_id": 3,
+        "mean_temperature": 30.483227143723365
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 4,
+        "sensor_id": 3,
+        "mean_temperature": 30.521386802214206
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 6,
+        "sensor_id": 2,
+        "mean_temperature": 30.6595818603327
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 7,
+        "sensor_id": 4,
+        "mean_temperature": 30.72892386883926
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 10,
+        "sensor_id": 3,
+        "mean_temperature": 30.730469076066353
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 1,
+        "sensor_id": 2,
+        "mean_temperature": 30.79495784538859
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 4,
+        "sensor_id": 1,
+        "mean_temperature": 30.81600301194129
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 8,
+        "sensor_id": 5,
+        "mean_temperature": 31.018742064320847
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 10,
+        "sensor_id": 4,
+        "mean_temperature": 31.059461741135326
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 6,
+        "sensor_id": 4,
+        "mean_temperature": 31.8696011105777
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 1,
+        "sensor_id": 1,
+        "mean_temperature": 29.076790568442654
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 5,
+        "sensor_id": 3,
+        "mean_temperature": 29.14679823992402
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 1,
+        "sensor_id": 5,
+        "mean_temperature": 29.191892797938003
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 1,
+        "sensor_id": 2,
+        "mean_temperature": 29.221415627889282
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 2,
+        "sensor_id": 4,
+        "mean_temperature": 29.22222022369428
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 7,
+        "sensor_id": 4,
+        "mean_temperature": 29.28893702781756
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 1,
+        "sensor_id": 3,
+        "mean_temperature": 29.440325891279425
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 4,
+        "sensor_id": 2,
+        "mean_temperature": 29.457507356790313
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 9,
+        "sensor_id": 4,
+        "mean_temperature": 29.523066371763257
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 4,
+        "sensor_id": 3,
+        "mean_temperature": 29.540827838659723
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 5,
+        "sensor_id": 4,
+        "mean_temperature": 29.658835939007663
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 5,
+        "sensor_id": 2,
+        "mean_temperature": 29.675464660515217
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 6,
+        "sensor_id": 4,
+        "mean_temperature": 29.67608194209996
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 8,
+        "sensor_id": 4,
+        "mean_temperature": 29.686170804499984
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 3,
+        "sensor_id": 2,
+        "mean_temperature": 29.686543858762867
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 10,
+        "sensor_id": 1,
+        "mean_temperature": 29.69605616140435
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 8,
+        "sensor_id": 5,
+        "mean_temperature": 29.735325636888994
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 8,
+        "sensor_id": 3,
+        "mean_temperature": 29.76269487077852
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 4,
+        "sensor_id": 4,
+        "mean_temperature": 29.771599435321356
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 7,
+        "sensor_id": 2,
+        "mean_temperature": 29.821001210938665
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 9,
+        "sensor_id": 3,
+        "mean_temperature": 29.865151680236853
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 8,
+        "sensor_id": 1,
+        "mean_temperature": 29.866905178220225
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 2,
+        "sensor_id": 3,
+        "mean_temperature": 29.878906065774764
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 5,
+        "sensor_id": 1,
+        "mean_temperature": 29.95053997197561
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 3,
+        "sensor_id": 5,
+        "mean_temperature": 30.059164081858558
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 9,
+        "sensor_id": 2,
+        "mean_temperature": 30.07456153917535
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 2,
+        "sensor_id": 2,
+        "mean_temperature": 30.07680423857133
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 6,
+        "sensor_id": 3,
+        "mean_temperature": 30.08938647164811
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 8,
+        "sensor_id": 2,
+        "mean_temperature": 30.126862464640947
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 4,
+        "sensor_id": 5,
+        "mean_temperature": 30.15212860720232
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 10,
+        "sensor_id": 3,
+        "mean_temperature": 30.15457506762958
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 10,
+        "sensor_id": 2,
+        "mean_temperature": 30.163392631198818
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 10,
+        "sensor_id": 4,
+        "mean_temperature": 30.173805832187902
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 6,
+        "sensor_id": 2,
+        "mean_temperature": 30.200135243512673
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 10,
+        "sensor_id": 5,
+        "mean_temperature": 30.203058506056628
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 3,
+        "sensor_id": 4,
+        "mean_temperature": 30.231226495240662
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 1,
+        "sensor_id": 4,
+        "mean_temperature": 30.24631096649996
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 7,
+        "sensor_id": 1,
+        "mean_temperature": 30.255943398195814
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 7,
+        "sensor_id": 5,
+        "mean_temperature": 30.309260512678623
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 6,
+        "sensor_id": 1,
+        "mean_temperature": 30.309914720317163
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 9,
+        "sensor_id": 5,
+        "mean_temperature": 30.33528261744251
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 5,
+        "sensor_id": 5,
+        "mean_temperature": 30.434912381090662
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 3,
+        "sensor_id": 1,
+        "mean_temperature": 30.451925065146643
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 4,
+        "sensor_id": 1,
+        "mean_temperature": 30.452433405298233
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 6,
+        "sensor_id": 5,
+        "mean_temperature": 30.492780747816333
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 9,
+        "sensor_id": 1,
+        "mean_temperature": 30.495094368735415
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 2,
+        "sensor_id": 1,
+        "mean_temperature": 30.86768342220585
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 7,
+        "sensor_id": 3,
+        "mean_temperature": 30.924021463674347
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 2,
+        "sensor_id": 5,
+        "mean_temperature": 30.93427297742304
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 3,
+        "sensor_id": 3,
+        "mean_temperature": 31.181001775593653
+    }
+]

@@ -2,7 +2,7 @@
 from pyspark.sql import SparkSession, dataframe
 from pyspark.sql.functions import col, hour, split, to_date, concat, lit
 
-from ParameterConstants import data_file_path
+from .ParameterConstants import data_file_path
 
 
 class DataAnalysis:

@@ -1,0 +1,252 @@
+[
+    {
+        "timestamp": "2021-11-02 21:00:00",
+        "floor_number": 1,
+        "mean_temperature": 31.546877235066603
+    },
+    {
+        "timestamp": "2021-11-02 21:00:00",
+        "floor_number": 2,
+        "mean_temperature": 27.959370827168797
+    },
+    {
+        "timestamp": "2021-11-02 21:00:00",
+        "floor_number": 10,
+        "mean_temperature": 29.845418248228007
+    },
+    {
+        "timestamp": "2021-11-02 21:00:00",
+        "floor_number": 4,
+        "mean_temperature": 28.573815911900503
+    },
+    {
+        "timestamp": "2021-11-02 21:00:00",
+        "floor_number": 5,
+        "mean_temperature": 29.466713208228793
+    },
+    {
+        "timestamp": "2021-11-02 21:00:00",
+        "floor_number": 8,
+        "mean_temperature": 30.130083079415133
+    },
+    {
+        "timestamp": "2021-11-02 21:00:00",
+        "floor_number": 9,
+        "mean_temperature": 29.402725143503748
+    },
+    {
+        "timestamp": "2021-11-02 21:00:00",
+        "floor_number": 6,
+        "mean_temperature": 30.660868391659665
+    },
+    {
+        "timestamp": "2021-11-02 21:00:00",
+        "floor_number": 7,
+        "mean_temperature": 29.41124840246562
+    },
+    {
+        "timestamp": "2021-11-02 21:00:00",
+        "floor_number": 3,
+        "mean_temperature": 30.49717731461034
+    },
+    {
+        "timestamp": "2021-11-02 22:00:00",
+        "floor_number": 8,
+        "mean_temperature": 29.852009342583976
+    },
+    {
+        "timestamp": "2021-11-02 22:00:00",
+        "floor_number": 6,
+        "mean_temperature": 29.73283788025161
+    },
+    {
+        "timestamp": "2021-11-02 22:00:00",
+        "floor_number": 1,
+        "mean_temperature": 29.80953709742887
+    },
+    {
+        "timestamp": "2021-11-02 22:00:00",
+        "floor_number": 4,
+        "mean_temperature": 30.3952277091141
+    },
+    {
+        "timestamp": "2021-11-02 22:00:00",
+        "floor_number": 3,
+        "mean_temperature": 29.78970041382263
+    },
+    {
+        "timestamp": "2021-11-02 22:00:00",
+        "floor_number": 5,
+        "mean_temperature": 29.497378227703305
+    },
+    {
+        "timestamp": "2021-11-02 22:00:00",
+        "floor_number": 10,
+        "mean_temperature": 30.35224726175886
+    },
+    {
+        "timestamp": "2021-11-02 22:00:00",
+        "floor_number": 7,
+        "mean_temperature": 29.863082345175854
+    },
+    {
+        "timestamp": "2021-11-02 22:00:00",
+        "floor_number": 9,
+        "mean_temperature": 29.93374749537735
+    },
+    {
+        "timestamp": "2021-11-02 22:00:00",
+        "floor_number": 2,
+        "mean_temperature": 29.44969763674542
+    },
+    {
+        "timestamp": "2021-11-03 11:00:00",
+        "floor_number": 7,
+        "mean_temperature": 30.410506764317713
+    },
+    {
+        "timestamp": "2021-11-03 11:00:00",
+        "floor_number": 2,
+        "mean_temperature": 30.30690628277427
+    },
+    {
+        "timestamp": "2021-11-03 11:00:00",
+        "floor_number": 10,
+        "mean_temperature": 30.279685413998436
+    },
+    {
+        "timestamp": "2021-11-03 11:00:00",
+        "floor_number": 9,
+        "mean_temperature": 29.556186151744598
+    },
+    {
+        "timestamp": "2021-11-03 11:00:00",
+        "floor_number": 6,
+        "mean_temperature": 30.275095773219988
+    },
+    {
+        "timestamp": "2021-11-03 11:00:00",
+        "floor_number": 1,
+        "mean_temperature": 28.968050802617533
+    },
+    {
+        "timestamp": "2021-11-03 11:00:00",
+        "floor_number": 8,
+        "mean_temperature": 29.93020570795886
+    },
+    {
+        "timestamp": "2021-11-03 11:00:00",
+        "floor_number": 5,
+        "mean_temperature": 29.40466184037732
+    },
+    {
+        "timestamp": "2021-11-03 11:00:00",
+        "floor_number": 3,
+        "mean_temperature": 30.743193179187507
+    },
+    {
+        "timestamp": "2021-11-03 11:00:00",
+        "floor_number": 4,
+        "mean_temperature": 29.67619070556361
+    },
+    {
+        "timestamp": "2021-11-03 12:00:00",
+        "floor_number": 5,
+        "mean_temperature": 30.003004269380103
+    },
+    {
+        "timestamp": "2021-11-03 12:00:00",
+        "floor_number": 9,
+        "mean_temperature": 30.62018537430523
+    },
+    {
+        "timestamp": "2021-11-03 12:00:00",
+        "floor_number": 1,
+        "mean_temperature": 29.858321267856216
+    },
+    {
+        "timestamp": "2021-11-03 12:00:00",
+        "floor_number": 2,
+        "mean_temperature": 30.143708057557994
+    },
+    {
+        "timestamp": "2021-11-03 12:00:00",
+        "floor_number": 4,
+        "mean_temperature": 30.052127576618183
+    },
+    {
+        "timestamp": "2021-11-03 12:00:00",
+        "floor_number": 10,
+        "mean_temperature": 29.841143187022737
+    },
+    {
+        "timestamp": "2021-11-03 12:00:00",
+        "floor_number": 7,
+        "mean_temperature": 30.019185940039524
+    },
+    {
+        "timestamp": "2021-11-03 12:00:00",
+        "floor_number": 3,
+        "mean_temperature": 29.982184982635957
+    },
+    {
+        "timestamp": "2021-11-03 12:00:00",
+        "floor_number": 8,
+        "mean_temperature": 29.836874164289974
+    },
+    {
+        "timestamp": "2021-11-03 12:00:00",
+        "floor_number": 6,
+        "mean_temperature": 30.025006402106047
+    },
+    {
+        "timestamp": "2021-11-03 13:00:00",
+        "floor_number": 5,
+        "mean_temperature": 31.01871126635543
+    },
+    {
+        "timestamp": "2021-11-03 13:00:00",
+        "floor_number": 8,
+        "mean_temperature": 28.759076390818215
+    },
+    {
+        "timestamp": "2021-11-03 13:00:00",
+        "floor_number": 6,
+        "mean_temperature": 30.336610130648122
+    },
+    {
+        "timestamp": "2021-11-03 13:00:00",
+        "floor_number": 3,
+        "mean_temperature": 30.0622161306659
+    },
+    {
+        "timestamp": "2021-11-03 13:00:00",
+        "floor_number": 10,
+        "mean_temperature": 30.70284923467848
+    },
+    {
+        "timestamp": "2021-11-03 13:00:00",
+        "floor_number": 1,
+        "mean_temperature": 28.999057204219508
+    },
+    {
+        "timestamp": "2021-11-03 13:00:00",
+        "floor_number": 2,
+        "mean_temperature": 28.745159929798938
+    },
+    {
+        "timestamp": "2021-11-03 13:00:00",
+        "floor_number": 9,
+        "mean_temperature": 28.748832904197485
+    },
+    {
+        "timestamp": "2021-11-03 13:00:00",
+        "floor_number": 7,
+        "mean_temperature": 28.553797253858132
+    },
+    {
+        "timestamp": "2021-11-03 13:00:00",
+        "floor_number": 4,
+        "mean_temperature": 29.55973046685991
+    }
+]
