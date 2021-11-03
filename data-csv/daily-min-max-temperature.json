@@ -1,0 +1,242 @@
+[
+    {
+        "date": "2021-11-02",
+        "floor_number": 8,
+        "temperature": 39.915860514161736,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 1,
+        "temperature": 39.79698247613838,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 6,
+        "temperature": 39.93555299332046,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 4,
+        "temperature": 39.97887397403491,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 5,
+        "temperature": 39.96516648928996,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 10,
+        "temperature": 39.91889523616444,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 7,
+        "temperature": 39.88965955378748,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 9,
+        "temperature": 39.971600685848344,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 3,
+        "temperature": 39.981060700875695,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 2,
+        "temperature": 39.838810000917285,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 2,
+        "temperature": 39.9863057251995,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 3,
+        "temperature": 39.9935733110436,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 10,
+        "temperature": 39.90691515815092,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 9,
+        "temperature": 39.956265008059894,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 5,
+        "temperature": 39.989217052780916,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 1,
+        "temperature": 39.937932280569214,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 6,
+        "temperature": 39.92980261891876,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 8,
+        "temperature": 39.98536794696359,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 4,
+        "temperature": 39.86014007935101,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 7,
+        "temperature": 39.99888405280685,
+        "isMax": true
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 8,
+        "temperature": 20.006812881780167,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 1,
+        "temperature": 20.01799083822046,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 6,
+        "temperature": 20.011260566867954,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 4,
+        "temperature": 20.011926749551144,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 5,
+        "temperature": 20.001399059299242,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 10,
+        "temperature": 20.045175915854863,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 7,
+        "temperature": 20.05309416713179,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 9,
+        "temperature": 20.00231711287329,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 3,
+        "temperature": 20.106202149291246,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-02",
+        "floor_number": 2,
+        "temperature": 20.06117462759288,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 2,
+        "temperature": 20.000794486956718,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 3,
+        "temperature": 20.035812675911128,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 10,
+        "temperature": 20.056444596127893,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 9,
+        "temperature": 20.04386015981035,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 5,
+        "temperature": 20.02097962709255,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 1,
+        "temperature": 20.06022498116788,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 6,
+        "temperature": 20.037938632321108,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 8,
+        "temperature": 20.027119433851514,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 4,
+        "temperature": 20.082607534327266,
+        "isMax": false
+    },
+    {
+        "date": "2021-11-03",
+        "floor_number": 7,
+        "temperature": 20.030572782747754,
+        "isMax": false
+    }
+]
