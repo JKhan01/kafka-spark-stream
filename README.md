@@ -96,13 +96,6 @@ The Project and workaround repository to generate a producer stream to kafka clu
     python main.py
 ```
 
->>> 4. If You mere wish to view the output as dataframe table in terminal rather than exported json, navigate to [AnalyserModules](https://github.com/JKhan01/kafka-spark-stream/tree/main/pyspark-analysis/AnalyserModules) directory. Run the [DataAnalysis.py](https://github.com/JKhan01/kafka-spark-stream/blob/main/pyspark-analysis/AnalyserModules/DataAnalysis.py) file.
-
-```text
-    python DataAnalysis.py
-```
-
-
 ### The Data CSV and Output JSON Directory - *data-csv/*:
 
 1. [sensor-data.csv](https://github.com/JKhan01/kafka-spark-stream/blob/main/data-csv/sensor-data.csv)

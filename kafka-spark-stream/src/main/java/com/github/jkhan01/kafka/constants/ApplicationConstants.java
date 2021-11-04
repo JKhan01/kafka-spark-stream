@@ -1,5 +1,12 @@
 package com.github.jkhan01.kafka.constants;
 
+/**
+ * 
+ * The Application Level Constant Parameters for the Project.
+ * @author Mohd Jamaluddin Khan
+ *
+ */
+
 public class ApplicationConstants {
 
 	private static int NUMBER_OF_SENSORS_PER_FLOOR = 5;
@@ -8,6 +15,7 @@ public class ApplicationConstants {
 	private static double MINIMUM_FLOOR_TEMPERATURE = 20;
 	private static double MAXIMUM_FLOOR_TEMPERATURE = 40;
 	
+	// The INterval between two consecutive sensor data to be published on the Kafka Broker
 	private static int PUBLISHING_INTERVAL_IN_MILLIS = 1000;
 	
 	private static String DATA_CSV_FILE_PATH = "F:\\BigDataTraining\\Assignment_Kafka_Spark\\kafka-spark-stream\\data-csv\\sensor-data.csv";

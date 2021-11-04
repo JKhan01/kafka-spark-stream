@@ -248,5 +248,55 @@
         "timestamp": "2021-11-03 13:00:00",
         "floor_number": 4,
         "mean_temperature": 29.55973046685991
+    },
+    {
+        "timestamp": "2021-11-03 14:00:00",
+        "floor_number": 7,
+        "mean_temperature": 29.749323285977844
+    },
+    {
+        "timestamp": "2021-11-03 14:00:00",
+        "floor_number": 6,
+        "mean_temperature": 30.037503458292193
+    },
+    {
+        "timestamp": "2021-11-03 14:00:00",
+        "floor_number": 10,
+        "mean_temperature": 29.938893317417282
+    },
+    {
+        "timestamp": "2021-11-03 14:00:00",
+        "floor_number": 2,
+        "mean_temperature": 29.884705104691516
+    },
+    {
+        "timestamp": "2021-11-03 14:00:00",
+        "floor_number": 1,
+        "mean_temperature": 30.6270488909312
+    },
+    {
+        "timestamp": "2021-11-03 14:00:00",
+        "floor_number": 5,
+        "mean_temperature": 30.130248925469395
+    },
+    {
+        "timestamp": "2021-11-03 14:00:00",
+        "floor_number": 4,
+        "mean_temperature": 29.429155841748393
+    },
+    {
+        "timestamp": "2021-11-03 14:00:00",
+        "floor_number": 9,
+        "mean_temperature": 30.04828987871856
+    },
+    {
+        "timestamp": "2021-11-03 14:00:00",
+        "floor_number": 3,
+        "mean_temperature": 29.086983334933546
+    },
+    {
+        "timestamp": "2021-11-03 14:00:00",
+        "floor_number": 8,
+        "mean_temperature": 30.130093771660437
     }
 ]

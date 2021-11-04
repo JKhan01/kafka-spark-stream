@@ -26,6 +26,8 @@ import com.github.jkhan01.kafka.utilities.ProducerDataGenerator;
 public class ProducerClient {
 
 	private KafkaProducer<String, String> producer;
+
+	// Logger Object to Generate Feedback Log as Callback Method.
 	private static Logger logger = LoggerFactory.getLogger(ProducerClient.class);
 
 	public ProducerClient() {
@@ -43,6 +45,7 @@ public class ProducerClient {
 
 	}
 
+	// Generate and Get the Data from the DataGenerator Module of the Utilities package.
 	public String getSensorData() {
 		ProducerDataGenerator dataGenerator = new ProducerDataGenerator();
 		return dataGenerator.generateSensorDataJSON().toString();
@@ -58,18 +61,23 @@ public class ProducerClient {
 			public void onCompletion(RecordMetadata metadata, Exception exception) {
 				// TODO Auto-generated method stub
 				if (exception != null) {
+					// Log the Error
 					logger.error("Error Occured in Publishing Data to the Kafka Cluster.\n Error Message: "
 							+ exception.getMessage());
 				} else {
+					// Log the Basic Message Metadata
 					logger.info("Sensor Data Published Successfully!" + "\n Topic: " + metadata.topic()
 							+ "\n Partition Number: " + metadata.partition() + "\n Offset: " + metadata.offset());
 				}
 			}
 		});
+		// Publish the queued data onto the Broker.
 		this.producer.flush();
 	}
-
+	
+	// Safely Close the Producer Client
 	public void closeProducerClient() {
+
 		this.producer.close();
 	}
 

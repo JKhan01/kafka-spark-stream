@@ -11,8 +11,17 @@ import org.json.simple.parser.ParseException;
 import com.github.jkhan01.kafka.clients.ConsumerClient;
 import com.github.jkhan01.kafka.constants.ApplicationConstants;
 
+/**
+ * 
+ * The Consumer View which uses the ConsumerClient to fetch the ConsumerRecords or the Data.
+ * It then converts it into JSON Object and finally Exports it to the target CSV File. 
+ * 
+ * @author Mohd Jamaluddin Khan
+ *
+ */
 public class ConsumerView {
 	
+	// The Method to convert Consumer Records to JSONObjects and append it into CSV
 	public static void printToCSV(ConsumerRecord< String, String> record) throws ParseException, IOException {
 		JSONParser parser = new JSONParser();  
 		JSONObject json = (JSONObject) parser.parse(record.value());
@@ -31,6 +40,8 @@ public class ConsumerView {
 		
 	}
 	
+
+	// Run The Consumer Unless Terminated by the User.
 	public static void main(String[] args) {
 		ConsumerClient client = new ConsumerClient();
 		while (true) {

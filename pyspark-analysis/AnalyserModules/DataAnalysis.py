@@ -4,7 +4,8 @@ from pyspark.sql.functions import col, hour, split, to_date, concat, lit
 
 from .ParameterConstants import data_file_path
 
-
+# The Main Data Analysis Module using the PySpark Module.
+# The Methods for Implementing the 3 use cases of the Project are implemented in this Class
 class DataAnalysis:
 
 
@@ -33,7 +34,13 @@ class DataAnalysis:
         return self.__spark
 
     def get_hourly_avg_temperature(self):
-        
+        '''
+            Grouping the Dataframe by breaking the timestamp into Date and Hour, Floor.
+            Computing the Mean temperature post grouping.
+            Merging the Hour and Date to Timestamp post grouping and Aggregation.
+            Returning the dataframe post appropriate column renaming.
+        '''
+
         dataframe_1hr = self.get_dataframe().groupBy(
             to_date("Timestamp").alias("Date"),
             hour("Timestamp").alias("Hour"),
@@ -49,6 +56,13 @@ class DataAnalysis:
         return dataframe_1hr.select("Timestamp","Floor_Id","Mean_Temperature")
     
     def get_daily_max_temperature(self):
+        '''
+            Grouping the Dataframe by breaking the timestamp into Date, Floor.
+            Computing the Maximum temperature post grouping.
+            Ordering the Data Frame According to the Date
+            Returning the dataframe post appropriate column renaming.
+        '''
+
         dataframe_max = self.get_dataframe().groupBy(
             to_date("Timestamp").alias("Date"),
             "Floor_Id").max("Temperature")
@@ -58,6 +72,13 @@ class DataAnalysis:
         return dataframe_max
 
     def get_daily_min_temperature(self):
+        '''
+            Grouping the Dataframe by breaking the timestamp into Date, Floor.
+            Computing the Minimum temperature post grouping.
+            Ordering the Data Frame According to the Date
+            Returning the dataframe post appropriate column renaming.
+        '''
+
         dataframe_min = self.get_dataframe().groupBy(
             to_date("Timestamp").alias("Date"),
             "Floor_Id").min("Temperature")
@@ -66,6 +87,15 @@ class DataAnalysis:
         return dataframe_min
 
     def get_daily_avg_temperature_with_sensor(self):
+        '''
+            In order to group each sensor on each floor uniquely we merge the SensorId and FloorId Columns.
+            Grouping the Dataframe by breaking the timestamp into Date, FloorId_SensorId.
+            Computing the Mean temperature post grouping.
+            Post the Aggregation, we split the merged floor and sensor columns.
+            We Finally Sort the Dataframe by Date and Average Temperature.
+            Returning the dataframe post appropriate column renaming.
+        '''
+
         dataframe_daily = self.get_dataframe()
         dataframe_daily = dataframe_daily.withColumn("Floor_Id_Sensor_Id",
                 concat("Floor_Id",lit(" "),"Sensor_Id"))
@@ -94,18 +124,27 @@ class DataAnalysis:
 
    
 
-if __name__ == "__main__":
-    dataAnalysis = DataAnalysis()
+# if __name__ == "__main__":
+#     dataAnalysis = DataAnalysis()
 
-    # dataAnalysis.print_dataframe()
+#     print("### Sample Data Frame ###")
+#     dataAnalysis.print_dataframe()
 
-    # print(dataAnalysis.get_dataframe().printSchema())
+#     print("### Data Frame Schema ###")
+#     print(dataAnalysis.get_dataframe().printSchema())
 
-    # data = dataAnalysis.get_hourly_avg_temperature()
+#     print("### Hourly Average Temperature on Each Floor ###")
+#     data = dataAnalysis.get_hourly_avg_temperature()
+#     print(data.show(data.count(),False))
+
+#     print("### Daily Maximum Temperature on Each Floor ###")
+#     data = dataAnalysis.get_daily_max_temperature()
+#     print(data.show(data.count(),False))
+
+#     print("### Daily Minimum Temperature on Each Floor ###")
+#     data = dataAnalysis.get_daily_min_temperature()
+#     print(data.show(data.count(),False))
     
-    # data = dataAnalysis.get_daily_max_temperature()
-
-    data = dataAnalysis.get_daily_avg_temperature_with_sensor()
-    
-
-    print(data.show(data.count(),False))
+#     print("### Daily Average Temperature Recorded by Each Temperature Sensor on Each Floor ###")
+#     data = dataAnalysis.get_daily_avg_temperature_with_sensor()
+#     print(data.show(data.count(),False))

@@ -3,6 +3,13 @@ package com.github.jkhan01.kafka.constants;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 
+/**
+ * 
+ * The Kafka-Broker / Cluster Associated Constants / Parameters.
+ * @author Mohd Jamaluddin Khan
+ *
+ */
+
 public class KafkaServerConstants {
 
 	private static String SERVER_URL = "127.0.0.1:9092";

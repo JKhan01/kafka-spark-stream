@@ -14,6 +14,15 @@ import org.apache.kafka.clients.consumer.KafkaConsumer;
 import com.github.jkhan01.kafka.constants.ApplicationConstants;
 import com.github.jkhan01.kafka.constants.KafkaServerConstants;
 
+/**
+ * 
+ * The Consumer Client to the Kafka Server. The Consumer will Consumer the
+ * Necessary Sensor Data as JSON String.
+ * 
+ * @author Mohd Jamaluddin Khan
+ *
+ */
+
 public class ConsumerClient {
 
 	private KafkaConsumer<String, String> consumer;
@@ -51,6 +60,8 @@ public class ConsumerClient {
 		this.consumer.subscribe(topics);
 	}
 
+	// Get Data By Polling the Broker and awaiting response for the threshold interval set in the KafkaServerConstants class
+	//  Under Constants package.
 	public ConsumerRecords<String, String> fetchDataFromServer() {
 		ConsumerRecords<String, String> records = this.consumer
 					.poll(Duration.ofMillis(ApplicationConstants.getPUBLISHING_INTERVAL_IN_MILLIS()));
